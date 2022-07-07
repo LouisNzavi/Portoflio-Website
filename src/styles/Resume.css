@@ -1,0 +1,12 @@
+.resume {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #004777;
+}
+
+.resume .pop {
+  width: 40%;
+  font-size: 30px;
+  text-align: center;
+}
