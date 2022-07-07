@@ -14,9 +14,19 @@ function Home() {
             I am a Front-End Software Developer with a focus on delivering for
             user experience. Have a passion for learning and problem solving.
           </p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <LinkedInIcon
+            onClick={(event) =>
+              window.open(
+                "https://www.linkedin.com/in/louis-mulinge-nzavi-9b2bb0140/"
+              )
+            }
+          />
+          <EmailIcon
+            onClick={(event) => window.open("https://mail.google.com/")}
+          />
+          <GitHubIcon
+            onClick={(event) => window.open("https://github.com/LouisNzavi/")}
+          />
         </div>
       </div>
       <div className="Skills">

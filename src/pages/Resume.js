@@ -11,7 +11,7 @@ function Resume() {
         rel="norefferrer noreferrer"
         className="pop"
       >
-        Download Resume
+        Open Resume
       </a>
     </div>
   );
