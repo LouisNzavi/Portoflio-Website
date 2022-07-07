@@ -1,3 +1,6 @@
+This is the website for my porfolio that I am currently working on, I will be constantly updating with updates, planning to also add a blog. Currently as beginner in the industry I am more keen on learning as much as possible and working on constantly improving.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
