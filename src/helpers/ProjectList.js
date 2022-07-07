@@ -1,4 +1,4 @@
-import squarespace from "../assets/squarespace-website.jpg";
+import squarespace from "../assets/squarespace-site.png";
 import vancouver from "../assets/vancouver.jpg";
 import signupForm from "../assets/signup-form.jpg";
 import harryporter from "../assets/gryffindor-house-crest.jpg";

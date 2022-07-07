@@ -4,16 +4,21 @@ import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/ProjectDisplay.css";
 
+//useParams returns an object key/value pairs of the dynamic params from the current URL that were matched by the <Route path>
+//
+
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img src={project.image} alt="project" />
+      <img src={project.image} alt="portfolio-projects" />
       <p>
-        Skills: <b /> {project.skill}
+        <b>Skills:</b>
+        {project.skill}
       </p>
+
       <GitHubIcon />
     </div>
   );
