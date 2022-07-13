@@ -45,12 +45,17 @@
 
 .skills h1 {
   color: #004777;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
 }
 
 .skills .list {
   list-style: none;
   width: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .list span {
