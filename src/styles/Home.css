@@ -13,14 +13,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #00afb5;
+  background-color: #75dbcd;
   color: #f0f0f0;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: #ff9f1c;
+  color: #e57a44;
   height: 50px;
 }
 
@@ -37,18 +37,17 @@
 .skills {
   font-size: 35px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  /* display: flex;
   align-items: center;
+  justify-content: center; */
 }
 
 .skills h1 {
   color: #004777;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  /* display: flex;
   align-items: center;
-  /* text-align: center; */
+  justify-content: center; */
 }
 
 .skills .list {

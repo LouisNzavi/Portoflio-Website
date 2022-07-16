@@ -12,8 +12,6 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
 
-  // const githubLink = ProjectList;
-
   return (
     <div className="project">
       <h1>{project.name}</h1>
@@ -23,12 +21,12 @@ function ProjectDisplay() {
         {project.skill}
       </p>
       <div>
-        <GitHubIcon />
+        {ProjectList.map((icon) => {
+          return <GitHubIcon github={icon.github} />;
+        })}
       </div>
 
-      <div>
-        <LanguageIcon />
-      </div>
+      <LanguageIcon />
     </div>
   );
 }
