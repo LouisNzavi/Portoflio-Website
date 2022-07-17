@@ -20,11 +20,13 @@ function ProjectDisplay() {
         <b>Skills:</b>
         {project.skill}
       </p>
-      <div>
+      {/* <div>
         {ProjectList.map((icon) => {
-          return <GitHubIcon github={icon.github} />;
+          return 
+          <GitHubIcon github={icon.github} />;
         })}
-      </div>
+      </div> */}
+      <GitHubIcon />
 
       <LanguageIcon />
     </div>
