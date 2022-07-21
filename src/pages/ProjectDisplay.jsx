@@ -21,12 +21,7 @@ function ProjectDisplay() {
         <b>Skills:</b>
         {skill}
       </p>
-      {/* <div>
-        {ProjectList.map((icon) => {
-          return 
-          <GitHubIcon github={icon.github} />;
-        })}
-      </div> */}
+
       <ExternalLink url={gh} description="GitHub repository">
         <GitHubIcon />
       </ExternalLink>

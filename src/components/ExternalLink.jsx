@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 
+//this fn links the project url to be opened on a new page
+
 function ExternalLink({ url, children, description }) {
   return (
     <a
