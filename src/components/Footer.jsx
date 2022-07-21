@@ -9,17 +9,15 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <LinkedInIcon
-          onClick={(event) =>
+          onClick={() =>
             window.open(
               "https://www.linkedin.com/in/louis-mulinge-nzavi-9b2bb0140/"
             )
           }
         />
-        <EmailIcon
-          onClick={(event) => window.open("https://mail.google.com/")}
-        />
+        <EmailIcon onClick={() => window.open("https://mail.google.com/")} />
         <GitHubIcon
-          onClick={(event) => window.open("https://github.com/LouisNzavi/")}
+          onClick={() => window.open("https://github.com/LouisNzavi/")}
         />
       </div>
       <p>&copy; 2022 louismulinge.com</p>

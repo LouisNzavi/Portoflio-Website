@@ -11,6 +11,7 @@ function Projects() {
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
+            // eslint-disable-next-line react/jsx-key
             <ProjectItem id={idx} name={project.name} image={project.image} />
           );
         })}

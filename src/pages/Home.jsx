@@ -15,17 +15,15 @@ function Home() {
             user experience. Have a passion for learning and problem solving.
           </p>
           <LinkedInIcon
-            onClick={(event) =>
+            onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/louis-mulinge-nzavi-9b2bb0140/"
               )
             }
           />
-          <EmailIcon
-            onClick={(event) => window.open("https://mail.google.com/")}
-          />
+          <EmailIcon onClick={() => window.open("https://mail.google.com/")} />
           <GitHubIcon
-            onClick={(event) => window.open("https://github.com/LouisNzavi/")}
+            onClick={() => window.open("https://github.com/LouisNzavi/")}
           />
         </div>
       </div>
