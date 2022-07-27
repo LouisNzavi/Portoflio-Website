@@ -2,13 +2,34 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { motion } from "framer-motion";
+
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, My Name is Louis</h2>
+        <motion.h2
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              scale: 0.8,
+              opacity: 0,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              transition: {
+                delay: 0.5,
+              },
+            },
+          }}
+        >
+          Hi, My Name is Louis
+        </motion.h2>
+
         <div className="prompt">
           <p>
             I am a Front-End Software Developer with a focus on delivering for
@@ -26,9 +47,12 @@ function Home() {
             onClick={() => window.open("https://github.com/LouisNzavi/")}
           />
         </div>
+        <a href="#Skills">
+          <div className="scroll-down"></div>
+        </a>
       </div>
       <div className="Skills">
-        <h1>Skills</h1>
+        <h1 className="skills-h1">Skills</h1>
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
