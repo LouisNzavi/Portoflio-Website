@@ -3,7 +3,14 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #004777;
+  display: flex;
+  justify-content: center;
 }
+
+/* .resume-style {
+  display: flex;
+  justify-content: center;
+} */
 
 .resume .pop {
   width: 40%;

@@ -22,6 +22,7 @@
   font-size: 80px;
   color: #cc4c4c;
   height: 50px;
+  text-align: center;
 }
 
 .about .prompt {
@@ -66,6 +67,8 @@
 
 .icons {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .scroll-down {

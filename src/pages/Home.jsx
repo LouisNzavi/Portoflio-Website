@@ -49,14 +49,19 @@ function Home() {
             solving, and delivering a great user experience.
           </p>
           <LinkedInIcon
+            className="icons-nav"
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/louis-mulinge-nzavi-9b2bb0140/"
               )
             }
           />
-          <EmailIcon onClick={() => window.open("https://mail.google.com/")} />
+          <EmailIcon
+            className="icons-nav"
+            onClick={() => window.open("https://mail.google.com/")}
+          />
           <GitHubIcon
+            className="icons-nav"
             onClick={() => window.open("https://github.com/LouisNzavi/")}
           />
         </div>
@@ -70,16 +75,16 @@ function Home() {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              ReactJs, Redux, HTML, CSS, Javascript
+              ReactJs, Redux, HTML, CSS, Javascript.
               <br />
-              Npm, BootStrap, MaterialUI, Styled Components
+              Npm, BootStrap, MaterialUI, Styled Components.
               <br />
-              GraphQL, ES6+, AJAX, APIs - REST and GraphQL,
+              GraphQL, ES6+, AJAX, APIs - REST.
               <br />
               Animation (Greensock & Three.js), Graphing (d3.js) & Realtime
               (websockets and socket.io)
               <br />
-              TypeScript, Cypress, Jest, Webpack, OAuth.
+              TypeScript, Cypress, Jest.
             </span>
           </li>
           <li className="item">

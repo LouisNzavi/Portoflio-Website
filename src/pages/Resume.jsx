@@ -11,8 +11,12 @@ function Resume() {
     setPageNumber(1);
   }
   return (
-    <div>
-      <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
+    <div className="resume">
+      <Document
+        className="resume-style"
+        file={pdf}
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
         <Page height="800" pageNumber={pageNumber} />
       </Document>
       <p>
