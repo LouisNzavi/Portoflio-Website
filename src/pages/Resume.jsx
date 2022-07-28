@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import "../styles/Resume.css";
 import pdf from "../assets/louis-nzavi-cv.pdf";
 
 function Resume() {
@@ -20,8 +21,7 @@ function Resume() {
         <Page height="800" pageNumber={pageNumber} />
       </Document>
       <p>
-        {" "}
-        Page {pageNumber} of {numPage}{" "}
+        Page {pageNumber} of {numPage}
       </p>
       {pageNumber}
     </div>
