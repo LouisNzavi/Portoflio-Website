@@ -71,6 +71,10 @@
   justify-content: space-around;
 }
 
+.prompt .icons-nav {
+  cursor: pointer;
+}
+
 .scroll-down {
   height: 30px;
   width: 30px;
