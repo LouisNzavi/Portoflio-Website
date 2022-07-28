@@ -7,8 +7,9 @@
   justify-content: center;
 }
 
-canvas.react-pdf__Page__canvas {
-  margin: auto;
+.react-pdf__Document + p,
+.react-pdf__Document + p + * {
+  display: none;
 }
 
 .resume .pop {
