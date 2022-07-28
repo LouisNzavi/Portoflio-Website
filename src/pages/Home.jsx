@@ -2,6 +2,19 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faJsSquare,
+  faReact,
+  faCss3,
+  faHtml5,
+  faNpm,
+  faBootstrap,
+  faCodepen,
+  faGithub,
+  faStackOverflow,
+  faFontAwesome,
+} from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 
 import "../styles/Home.css";
@@ -32,8 +45,8 @@ function Home() {
 
         <div className="prompt">
           <p>
-            I am a Front-End Software Developer with a focus on delivering for
-            user experience. Have a passion for learning and problem solving.
+            I am a Front-End Software Developer and I love learning, problem
+            solving, and delivering a great user experience.
           </p>
           <LinkedInIcon
             onClick={() =>
@@ -74,6 +87,18 @@ function Home() {
             <span>Javascript, TypeScript</span>
           </li>
         </ol>
+      </div>
+      <div className="icons">
+        <FontAwesomeIcon icon={faJsSquare} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faReact} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faCss3} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faHtml5} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faNpm} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faBootstrap} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faCodepen} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faGithub} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faStackOverflow} className="fa-bounce fa-2x" />
+        <FontAwesomeIcon icon={faFontAwesome} className="fa-bounce fa-2x" />
       </div>
     </div>
   );

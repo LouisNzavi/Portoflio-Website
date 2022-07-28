@@ -34,9 +34,10 @@
   color: white;
 }
 
-.skills {
+.Skills {
   font-size: 35px;
   width: 100%;
+  text-align: center;
 }
 
 .skills skills-h1 {
@@ -61,6 +62,10 @@
 
 .item {
   list-style: none;
+}
+
+.icons {
+  text-align: center;
 }
 
 .scroll-down {
