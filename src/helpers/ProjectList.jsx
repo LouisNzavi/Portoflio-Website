@@ -6,6 +6,7 @@ import harryporter from "../assets/gryffindor-house-crest.jpg";
 import reservation from "../assets/reservation.jpg";
 import fourcardfeature from "../assets/fourcardfeature.png";
 import depositWithdraw from "../assets/depositWithdraw.webp";
+import spotifyAPI from "../assets/spotify-api.png";
 
 export const ProjectList = [
   {
@@ -53,5 +54,11 @@ export const ProjectList = [
     image: signupForm,
     skill: "HTML, CSS, JavaScript",
     github: "https://github.com/LouisNzavi/Intro-Signup-form",
+  },
+  {
+    name: "Visualise Spotify API data",
+    image: spotifyAPI,
+    skill: "JavaScript and Spotify API",
+    github: "https://github.com/LouisNzavi/Spotify-Visualise-API-DATA",
   },
 ];
