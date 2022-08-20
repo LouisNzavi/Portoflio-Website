@@ -7,7 +7,11 @@ import { Link } from "react-router-dom";
 
 function ProjectItem({ image, name, id }) {
   return (
-    <Link to={`/project/${id}`} className="projectItem">
+    <Link
+      to={`/project/${id}`}
+      className="projectItem"
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1>{name}</h1>
     </Link>

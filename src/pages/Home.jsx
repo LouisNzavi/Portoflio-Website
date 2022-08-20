@@ -71,7 +71,7 @@ function Home() {
       </div>
       <div className="Skills">
         <h1 className="skills-h1">Skills</h1>
-        <ol className="list">
+        <ol className="list" style={{ padding: "inherit" }}>
           <li className="item">
             <h2>Front-End</h2>
             <span>

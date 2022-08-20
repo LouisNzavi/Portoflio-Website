@@ -7,6 +7,7 @@ import reservation from "../assets/reservation.jpg";
 import fourcardfeature from "../assets/fourcardfeature.png";
 import depositWithdraw from "../assets/depositWithdraw.webp";
 import spotifyAPI from "../assets/spotify-api.png";
+import googleAuth from "../assets/google-auth.jpg";
 
 export const ProjectList = [
   // {
@@ -63,6 +64,13 @@ export const ProjectList = [
     image: spotifyAPI,
     skill: "JavaScript and Spotify API",
     github: "https://github.com/LouisNzavi/Spotify-Visualise-API-DATA",
+    website: "",
+  },
+  {
+    name: "Google Auth/ Firebase",
+    image: googleAuth,
+    skill: "google authentication with firebase and Javascript",
+    github: "https://github.com/LouisNzavi/google-auth-firebase",
     website: "",
   },
 ];

@@ -23,7 +23,7 @@ function Resume() {
       <p>
         Page {pageNumber} of {numPage}
       </p>
-      {pageNumber}
+      {/* {pageNumber} */}
     </div>
   );
 }
