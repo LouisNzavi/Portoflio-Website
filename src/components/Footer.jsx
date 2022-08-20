@@ -20,7 +20,7 @@ function Footer() {
           onClick={() => window.open("https://github.com/LouisNzavi/")}
         />
       </div>
-      <p>&copy; 2022 louismulinge.com</p>
+      <p style={{ color: "inherit" }}>&copy; 2022 louismulinge.com</p>
     </div>
   );
 }
