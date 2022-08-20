@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "../styles/Resume.css";
-import pdf from "../assets/Louis_Nzavi_Resume.PDF";
+import pdf from "../assets/louisnzaviresume.pdf";
 
 function Resume() {
   const [numPage, setnumPage] = useState(null);

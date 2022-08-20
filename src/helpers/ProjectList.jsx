@@ -1,4 +1,4 @@
-import squarespace from "../assets/squarespace-site.png";
+// import squarespace from "../assets/squarespace-site.png";
 import vancouver from "../assets/vancouver.jpg";
 import signupForm from "../assets/signup-form.jpg";
 import harryporter from "../assets/gryffindor-house-crest.jpg";
@@ -9,15 +9,15 @@ import depositWithdraw from "../assets/depositWithdraw.webp";
 import spotifyAPI from "../assets/spotify-api.png";
 
 export const ProjectList = [
+  // {
+  //   name: "SquareSpace Website Homage",
+  //   image: squarespace,
+  //   skill: "HTML, CSS, JavaScript",
+  //   github: "https://github.com/LouisNzavi/Portoflio-Website",
+  //   website: "https://mysquarespacehomage.netlify.app/",
+  // },
   {
-    name: "SquareSpace Website Homage",
-    image: squarespace,
-    skill: "HTML, CSS, JavaScript",
-    github: "https://github.com/LouisNzavi/Portoflio-Website",
-    website: "https://mysquarespacehomage.netlify.app/",
-  },
-  {
-    name: "HarryPorter theme TODO CRUD app",
+    name: "TODO CRUD app",
     image: harryporter,
     skill: "HTML, CSS, JavaScript",
     github: "https://github.com/LouisNzavi/TO-DO-APP",
@@ -29,6 +29,7 @@ export const ProjectList = [
     skill: "React, Redux Toolkit and TypeScript",
     github:
       "https://github.com/LouisNzavi/RestaurantReservation---reduxToolkit-Typescrpt",
+    website: "https://restuarant-reservation.netlify.app/",
   },
   {
     name: "Deposit/Withdraw system",
@@ -42,12 +43,14 @@ export const ProjectList = [
     image: fourcardfeature,
     skill: "HTML, CSS, JavaScript",
     github: "https://github.com/LouisNzavi/Four-card-feature-design-file",
+    website: "",
   },
   {
-    name: "Vancouver Sleep Clinc website",
+    name: "Vancouver Sleep Clinic website",
     image: vancouver,
     skill: "HTML, CSS",
     github: "https://github.com/LouisNzavi/Vancouver-Sleep-Clinc-PROJ",
+    website: "https://vancouversleepclinic.netlify.app/",
   },
   {
     name: "Intro component with SignUp form",
@@ -60,5 +63,6 @@ export const ProjectList = [
     image: spotifyAPI,
     skill: "JavaScript and Spotify API",
     github: "https://github.com/LouisNzavi/Spotify-Visualise-API-DATA",
+    website: "",
   },
 ];

@@ -44,7 +44,7 @@
 .skills skills-h1 {
   color: black;
   text-align: center;
-  padding: auto;
+  /* padding: auto; */
 }
 
 .skills .list {
@@ -53,8 +53,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .list span {

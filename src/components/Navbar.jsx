@@ -26,7 +26,6 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
-      <div></div>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/projects"> Projects</Link>
