@@ -37,6 +37,7 @@ export const ProjectList = [
     image: depositWithdraw,
     skill: "React, JavaScript, Redux: reducers/store/action-creators",
     github: "https://github.com/LouisNzavi/React-with-redux-deposit-withdraw-",
+    website: "https://depositwithdraw.netlify.app/",
   },
 
   {
@@ -71,6 +72,6 @@ export const ProjectList = [
     image: googleAuth,
     skill: "google authentication with firebase and Javascript",
     github: "https://github.com/LouisNzavi/google-auth-firebase",
-    website: "",
+    website: "https://google-auth-firebase.netlify.app/",
   },
 ];
