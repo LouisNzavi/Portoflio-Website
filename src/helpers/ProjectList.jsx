@@ -8,6 +8,7 @@ import fourcardfeature from "../assets/fourcardfeature.png";
 import depositWithdraw from "../assets/depositWithdraw.webp";
 import spotifyAPI from "../assets/spotify-api.png";
 import googleAuth from "../assets/google-auth.jpg";
+import social from "../assets/svg-4.svg";
 
 export const ProjectList = [
   // {
@@ -73,5 +74,12 @@ export const ProjectList = [
     skill: "google authentication with firebase and Javascript",
     github: "https://github.com/LouisNzavi/google-auth-firebase",
     website: "https://google-auth-firebase.netlify.app/",
+  },
+  {
+    name: "Social Media Agency Website",
+    image: social,
+    skill: "React and Styled Components",
+    github: "https://github.com/LouisNzavi/SocialmediaAgency-website",
+    website: "https://grajuan-agency.netlify.app/",
   },
 ];
