@@ -26,6 +26,13 @@ export const ProjectList = [
     website: "https://gabriellatodoapp.netlify.app/",
   },
   {
+    name: "Social Media Agency Website",
+    image: social,
+    skill: "React and Styled Components",
+    github: "https://github.com/LouisNzavi/SocialmediaAgency-website",
+    website: "https://grajuan-agency.netlify.app/",
+  },
+  {
     name: "Restaurant Reservation System",
     image: reservation,
     skill: "React, Redux Toolkit and TypeScript",
@@ -34,11 +41,11 @@ export const ProjectList = [
     website: "https://restuarant-reservation.netlify.app/",
   },
   {
-    name: "Deposit/Withdraw system",
-    image: depositWithdraw,
-    skill: "React, JavaScript, Redux: reducers/store/action-creators",
-    github: "https://github.com/LouisNzavi/React-with-redux-deposit-withdraw-",
-    website: "https://depositwithdraw.netlify.app/",
+    name: "Vancouver Sleep Clinic website",
+    image: vancouver,
+    skill: "HTML, CSS",
+    github: "https://github.com/LouisNzavi/Vancouver-Sleep-Clinc-PROJ",
+    website: "https://vancouversleepclinic.netlify.app/",
   },
 
   {
@@ -47,13 +54,6 @@ export const ProjectList = [
     skill: "HTML, CSS, JavaScript",
     github: "https://github.com/LouisNzavi/Four-card-feature-design-file",
     website: "",
-  },
-  {
-    name: "Vancouver Sleep Clinic website",
-    image: vancouver,
-    skill: "HTML, CSS",
-    github: "https://github.com/LouisNzavi/Vancouver-Sleep-Clinc-PROJ",
-    website: "https://vancouversleepclinic.netlify.app/",
   },
   {
     name: "Intro component with SignUp form",
@@ -76,10 +76,10 @@ export const ProjectList = [
     website: "https://google-auth-firebase.netlify.app/",
   },
   {
-    name: "Social Media Agency Website",
-    image: social,
-    skill: "React and Styled Components",
-    github: "https://github.com/LouisNzavi/SocialmediaAgency-website",
-    website: "https://grajuan-agency.netlify.app/",
+    name: "Deposit/Withdraw system",
+    image: depositWithdraw,
+    skill: "React, JavaScript, Redux: reducers/store/action-creators",
+    github: "https://github.com/LouisNzavi/React-with-redux-deposit-withdraw-",
+    website: "https://depositwithdraw.netlify.app/",
   },
 ];
