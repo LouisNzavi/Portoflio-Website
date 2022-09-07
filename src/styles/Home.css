@@ -13,14 +13,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #1dd3b0;
-  color: #f0f0f0;
+  background-color: #484f51;
+  color: #ffffff;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: #cc4c4c;
+  color: #ffffff;
   height: 50px;
   text-align: center;
 }
@@ -42,7 +42,7 @@
 }
 
 .skills skills-h1 {
-  color: black;
+  color: #0c120c;
   text-align: center;
   /* padding: auto; */
 }
@@ -105,7 +105,7 @@
 
 .scroll-down::after {
   top: 30%;
-  animation-delay: 0.3s;
+  animation-delay: 10s;
 }
 @keyframes scroll-down {
   0% {
@@ -123,7 +123,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .about h2 {
     font-size: 40px;
   }
