@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+// import backgroundVideo from "../assets/home.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJsSquare,
@@ -28,21 +29,20 @@ function Home() {
           animate="visible"
           variants={{
             hidden: {
-              scale: 0.8,
+              scale: 0.5,
               opacity: 0,
             },
             visible: {
               scale: 1,
               opacity: 1,
               transition: {
-                delay: 0.5,
+                delay: "0.8s",
               },
             },
           }}
         >
           Hi, My Name is Louis
         </motion.h2>
-
         <div className="prompt">
           <p>
             I am a Front-End Software Developer and I love learning, problem
@@ -71,7 +71,7 @@ function Home() {
       </div>
       <div className="Skills">
         <h1 className="skills-h1">Skills</h1>
-        <ol className="list" style={{ padding: "inherit" }}>
+        <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
             <span>
