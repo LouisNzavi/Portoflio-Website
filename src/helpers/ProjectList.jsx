@@ -41,6 +41,8 @@ export const ProjectList = [
     name: "Restaurant Reservation System",
     image: reservation,
     skill: "React, Redux Toolkit and TypeScript",
+    purpose:
+      "For this project I decided to work with React and Redux toolkit whilst incorporating Typescript to build a basic reservation system that can be used in a restaurant when customers order. This system works by the cashier adding the customers name in the input box. Once they are ready to order, you add the list of items they would like and this will be displayed under their name. ",
     github:
       "https://github.com/LouisNzavi/RestaurantReservation---reduxToolkit-Typescrpt",
     website: "https://restuarant-reservation.netlify.app/",
@@ -49,6 +51,8 @@ export const ProjectList = [
     name: "Vancouver Sleep Clinic website",
     image: vancouver,
     skill: "HTML, CSS",
+    purpose:
+      "This is a HTML and CSS only website to showcase an artist webpage. The main things to highlight are audio/video embedded. Adding table data to showcase tour dates and purchase links. Linked pages with contact form. ",
     github: "https://github.com/LouisNzavi/Vancouver-Sleep-Clinc-PROJ",
     website: "https://vancouversleepclinic.netlify.app/",
   },

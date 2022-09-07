@@ -29,14 +29,14 @@ function Home() {
           animate="visible"
           variants={{
             hidden: {
-              scale: 0.5,
+              scale: 1,
               opacity: 0,
             },
             visible: {
               scale: 1,
               opacity: 1,
               transition: {
-                delay: "0.8s",
+                delay: "1.1s",
               },
             },
           }}
