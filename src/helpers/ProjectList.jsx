@@ -64,13 +64,15 @@ export const ProjectList = [
     description:
       "This simple HTML and CSS project file displays a four card feature that could be displayed as a section on website or as the main page. The design is simple yet effective and responsive without using JavaScript.",
     github: "https://github.com/LouisNzavi/Four-card-feature-design-file",
-    website: "",
+    website: "https://benevolent-pika-8279de.netlify.app/",
   },
   {
     name: "Intro component with SignUp form",
     image: signupForm,
     skill: "HTML, CSS, JavaScript",
+    description: "This project involves building an introductory component.",
     github: "https://github.com/LouisNzavi/Intro-Signup-form",
+    website: "https://intoformcomponent.netlify.app/",
   },
   {
     name: "Visualise Spotify API data",
