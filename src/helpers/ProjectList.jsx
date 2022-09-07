@@ -22,6 +22,9 @@ export const ProjectList = [
     name: "TODO CRUD app",
     image: harryporter,
     skill: "HTML, CSS, JavaScript",
+    purpose:
+      "The purpose of this project is to allow you to create an application, read the data, edit it and also delete that data. In our case it is a TODO app. When you click the " +
+      " modal sign a pop up box will appear. Added javascript validation to ensure user does not submit blank inputs, an error message will show otherwise. Data is stored locally once collected from the input fields, then we push that data into the local storage. You also have the ability to add multiple tasks on the TODO application",
     github: "https://github.com/LouisNzavi/TO-DO-APP",
     website: "https://gabriellatodoapp.netlify.app/",
   },
@@ -29,6 +32,8 @@ export const ProjectList = [
     name: "Social Media Agency Website",
     image: social,
     skill: "React and Styled Components",
+    purpose:
+      "This is a social media site built using React and styled components. The main hero section includes a video background. The project also allowed me to explore working with styled componentns for CSS. A library that allow you to use component-level styles in your application. It also allows reproducible styles and easier management of CSS.",
     github: "https://github.com/LouisNzavi/SocialmediaAgency-website",
     website: "https://grajuan-agency.netlify.app/",
   },

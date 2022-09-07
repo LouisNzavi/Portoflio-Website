@@ -11,7 +11,7 @@ import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
-  const { name, image, skill, github: gh, website } = ProjectList[id];
+  const { name, image, skill, purpose, github: gh, website } = ProjectList[id];
 
   return (
     <div className="project">
@@ -20,6 +20,10 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b>
         {skill}
+      </p>
+      <p style={{ padding: "10px 60px", fontSize: "25px" }}>
+        <b>Purpose:</b>
+        {purpose}
       </p>
 
       <ExternalLink url={gh} description="GitHub repository">

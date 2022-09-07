@@ -53,6 +53,7 @@
 
 .about .prompt {
   width: 40%;
+  margin: auto;
   font-size: 30px;
 }
 .prompt svg {

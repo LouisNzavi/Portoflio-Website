@@ -6,6 +6,10 @@
   align-items: center;
   flex-direction: column;
 }
+
+.project > p {
+font-size: 10px;
+}
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
