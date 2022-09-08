@@ -5,9 +5,9 @@ import harryporter from "../assets/gryffindor-house-crest.jpg";
 // import desktopPreview from "../assets/desktop-preview.jpg";
 import reservation from "../assets/reservation.jpg";
 import fourcardfeature from "../assets/fourcardfeature.png";
-import depositWithdraw from "../assets/depositWithdraw.webp";
-import spotifyAPI from "../assets/spotify-api.png";
-import googleAuth from "../assets/google-auth.jpg";
+// import depositWithdraw from "../assets/depositWithdraw.webp";
+// import spotifyAPI from "../assets/spotify-api.png";
+// import googleAuth from "../assets/google-auth.jpg";
 import social from "../assets/svg-4.svg";
 
 export const ProjectList = [
@@ -74,25 +74,25 @@ export const ProjectList = [
     github: "https://github.com/LouisNzavi/Intro-Signup-form",
     website: "https://intoformcomponent.netlify.app/",
   },
-  {
-    name: "Visualise Spotify API data",
-    image: spotifyAPI,
-    skill: "JavaScript and Spotify API",
-    github: "https://github.com/LouisNzavi/Spotify-Visualise-API-DATA",
-    website: "",
-  },
-  {
-    name: "Google Auth/ Firebase",
-    image: googleAuth,
-    skill: "google authentication with firebase and Javascript",
-    github: "https://github.com/LouisNzavi/google-auth-firebase",
-    website: "https://google-auth-firebase.netlify.app/",
-  },
-  {
-    name: "Deposit/Withdraw system",
-    image: depositWithdraw,
-    skill: "React, JavaScript, Redux: reducers/store/action-creators",
-    github: "https://github.com/LouisNzavi/React-with-redux-deposit-withdraw-",
-    website: "https://depositwithdraw.netlify.app/",
-  },
+  // {
+  //   name: "Visualise Spotify API data",
+  //   image: spotifyAPI,
+  //   skill: "JavaScript and Spotify API",
+  //   github: "https://github.com/LouisNzavi/Spotify-Visualise-API-DATA",
+  //   website: "",
+  // },
+  // {
+  //   name: "Google Auth/ Firebase",
+  //   image: googleAuth,
+  //   skill: "google authentication with firebase and Javascript",
+  //   github: "https://github.com/LouisNzavi/google-auth-firebase",
+  //   website: "https://google-auth-firebase.netlify.app/",
+  // },
+  // {
+  //   name: "Deposit/Withdraw system",
+  //   image: depositWithdraw,
+  //   skill: "React, JavaScript, Redux: reducers/store/action-creators",
+  //   github: "https://github.com/LouisNzavi/React-with-redux-deposit-withdraw-",
+  //   website: "https://depositwithdraw.netlify.app/",
+  // },
 ];
