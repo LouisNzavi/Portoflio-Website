@@ -25,19 +25,18 @@ function Home() {
     <div className="home">
       <div className="about">
         <motion.h2
-          initial="hidden"
-          animate="visible"
-          variants={{
-            hidden: {
-              scale: 1,
-              opacity: 0,
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            default: {
+              duration: 0.3,
+              ease: [0, 0.71, 0.2, 1.01],
             },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              transition: {
-                delay: "1.1s",
-              },
+            scale: {
+              type: "spring",
+              damping: 5,
+              stiffness: 100,
+              restDelta: 0.001,
             },
           }}
         >
@@ -110,3 +109,23 @@ function Home() {
 }
 
 export default Home;
+
+// //        {/* <motion.h2
+//           initial="hidden"
+//           animate="visible"
+//           variants={{
+//             hidden: {
+//               scale: 1,
+//               opacity: 0,
+//             },
+//             visible: {
+//               scale: 1,
+//               opacity: 1,
+//               transition: {
+//                 delay: 0.5,
+//               },
+//             },
+//           }}
+//         >
+//           Hi, My Name is Louis
+//         </motion.h2> */}
