@@ -28,7 +28,7 @@ function ProjectDisplay() {
         <b>Skills:</b>
         {skill}
       </p>
-      <p style={{ padding: "10px 60px", fontSize: "25px" }}>
+      <p style={{ padding: "10px 60px", fontSize: "25px" }} className='description'>
         <b>Description:</b>
         {description}
       </p>

@@ -8,16 +8,19 @@
 }
 
 .project h1 {
-  margin-top: 50px;
+  margin-top: 200px;
   color: #3e497a;
   font-size: 35px;
 }
 .project img {
-  width: 300px;
+  width: 400px;
   border-radius: 10px;
+  /* margin-top: 100px; */
+  /* position: relative; */
 }
 
 .project p {
+  padding: 20px 20px;
   font-size: 40px;
   color: #3e497a;
 }
@@ -25,4 +28,8 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+}
+
+p.description {
+  padding: 10px;
 }

@@ -8,7 +8,7 @@
 }
 
 .project > p {
-font-size: 10px;
+  font-size: 10px;
 }
 .projects .projectTitle {
   text-align: center;
@@ -69,6 +69,7 @@ font-size: 10px;
 
 @media only screen and (max-width: 800px) {
   .projectList {
+    display: none;
     width: 100%;
   }
   .projectItem {
