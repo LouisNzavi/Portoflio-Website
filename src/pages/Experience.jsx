@@ -23,11 +23,14 @@ function Experience() {
             Nicholas BreakSpear Catholic School
           </h2>
           <p>
-            A-levels: Communication Studies -A*
+            A-levels:
             <br />
-            ICT Cambridge Technical - A
+            ICT Cambridge Technical : A
+            
             <br />
-            Philosophy and Ethics - B
+            Communication Studies : A*
+            <br />
+            Philosophy and Ethics : B
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -57,7 +60,7 @@ function Experience() {
             The Jump Digital Coding Bootcamp
           </h2>
           <p>
-            HTML, CSS/SaSS/SCSS
+            HTML, CSS/Sass/SCSS
             <br />
             JavaScript, TypeScript, React
             <br />

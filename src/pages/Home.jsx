@@ -76,7 +76,7 @@ function Home() {
             <span>
               ReactJs, Redux, HTML, CSS, Javascript.
               <br />
-              Npm, BootStrap, MaterialUI, Styled Components.
+              Npm, Bootstrap, MaterialUI, Styled Components.
               <br />
               GraphQL, ES6+, AJAX, APIs - REST.
               <br />
