@@ -1,5 +1,5 @@
 // import squarespace from "../assets/squarespace-site.png";
-import vancouver from "../assets/vancouver.jpg";
+// import vancouver from "../assets/vancouver.jpg";
 import signupForm from "../assets/signup-form.jpg";
 import harryporter from "../assets/gryffindor-house-crest.jpg";
 // import desktopPreview from "../assets/desktop-preview.jpg";
@@ -47,15 +47,15 @@ export const ProjectList = [
       "https://github.com/LouisNzavi/RestaurantReservation---reduxToolkit-Typescrpt",
     website: "https://restuarant-reservation.netlify.app/",
   },
-  {
-    name: "Vancouver Sleep Clinic website",
-    image: vancouver,
-    skill: "HTML, CSS",
-    description:
-      "This is a HTML and CSS only website to showcase an artist webpage. The main things to highlight are audio/video embedded. Adding table data to showcase tour dates and purchase links. Linked pages with contact form. ",
-    github: "https://github.com/LouisNzavi/Vancouver-Sleep-Clinc-PROJ",
-    website: "https://vancouversleepclinic.netlify.app/",
-  },
+  // {
+  //   name: "Vancouver Sleep Clinic website",
+  //   image: vancouver,
+  //   skill: "HTML, CSS",
+  //   description:
+  //     "This is a HTML and CSS only website to showcase an artist webpage. The main things to highlight are audio/video embedded. Adding table data to showcase tour dates and purchase links. Linked pages with contact form. ",
+  //   github: "https://github.com/LouisNzavi/Vancouver-Sleep-Clinc-PROJ",
+  //   website: "https://vancouversleepclinic.netlify.app/",
+  // },
 
   {
     name: "Four-card landing page feature",
