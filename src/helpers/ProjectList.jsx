@@ -1,14 +1,15 @@
 // import squarespace from "../assets/squarespace-site.png";
 // import vancouver from "../assets/vancouver.jpg";
-import signupForm from "../assets/signup-form.jpg";
+// import signupForm from "../assets/signup-form.jpg";
 import harryporter from "../assets/gryffindor-house-crest.jpg";
 // import desktopPreview from "../assets/desktop-preview.jpg";
 import reservation from "../assets/reservation.jpg";
-import fourcardfeature from "../assets/fourcardfeature.png";
+// import fourcardfeature from "../assets/fourcardfeature.png";
 // import depositWithdraw from "../assets/depositWithdraw.webp";
 // import spotifyAPI from "../assets/spotify-api.png";
 // import googleAuth from "../assets/google-auth.jpg";
 import social from "../assets/svg-4.svg";
+import bookmark from "../assets/desktoppreview.jpg";
 
 export const ProjectList = [
   // {
@@ -57,22 +58,31 @@ export const ProjectList = [
   //   website: "https://vancouversleepclinic.netlify.app/",
   // },
 
+  // {
+  //   name: "Four-card landing page feature",
+  //   image: fourcardfeature,
+  //   skill: "HTML and CSS",
+  //   description:
+  //     "This simple HTML and CSS project file displays a four card feature that could be displayed as a section on website or as the main page. The design is simple yet effective and responsive without using JavaScript.",
+  //   github: "https://github.com/LouisNzavi/Four-card-feature-design-file",
+  //   website: "https://benevolent-pika-8279de.netlify.app/",
+  // },
+  // {
+  //   name: "Intro component with SignUp form",
+  //   image: signupForm,
+  //   skill: "HTML, CSS, JavaScript",
+  //   description: "This project involves building an introductory component.",
+  //   github: "https://github.com/LouisNzavi/Intro-Signup-form",
+  //   website: "https://intoformcomponent.netlify.app/",
+  // },
   {
-    name: "Four-card landing page feature",
-    image: fourcardfeature,
-    skill: "HTML and CSS",
-    description:
-      "This simple HTML and CSS project file displays a four card feature that could be displayed as a section on website or as the main page. The design is simple yet effective and responsive without using JavaScript.",
-    github: "https://github.com/LouisNzavi/Four-card-feature-design-file",
-    website: "https://benevolent-pika-8279de.netlify.app/",
-  },
-  {
-    name: "Intro component with SignUp form",
-    image: signupForm,
+    name: "Bookmark landing page",
+    image: bookmark,
     skill: "HTML, CSS, JavaScript",
-    description: "This project involves building an introductory component.",
-    github: "https://github.com/LouisNzavi/Intro-Signup-form",
-    website: "https://intoformcomponent.netlify.app/",
+    description:
+      "This project involves building a bookmark landing page, which is a challenge and bootcamp project from frontend-mentor. The task was to build out the feature section and have it look as close to the original design as possible. ",
+    github: "https://github.com/LouisNzavi/Bookmark-landing-page",
+    website: "https://simplebookmarkmanager.netlify.app/",
   },
   // {
   //   name: "Visualise Spotify API data",
