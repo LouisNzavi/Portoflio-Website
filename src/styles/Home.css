@@ -2,7 +2,8 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #004777;
+  /* color: #004777; */
+  color: #40798C;
 }
 
 /* .motion {
@@ -39,7 +40,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #484f51;
+  /* background-color: #484f51; */
+  background-color: #1F363D;
   color: #ffffff;
 }
 
@@ -71,8 +73,7 @@
 .skills skills-h1 {
   color: #0c120c;
   text-align: center;
-
-  /* padding: auto; */
+  padding: auto;
 }
 
 .skills .list {
@@ -122,7 +123,8 @@
   position: absolute;
   top: 20%;
   left: 50%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  border: 2px solid #1F363D;
   height: 10px;
   width: 10px;
   transform: translate(-50%, 50%) rotate(45deg);
