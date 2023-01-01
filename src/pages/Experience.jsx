@@ -25,12 +25,10 @@ function Experience() {
           <p>
             A-levels:
             <br />
-            ICT Cambridge Technical : A
-            
+            - ICT Cambridge Technical : A
             <br />
-            Communication Studies : A*
-            <br />
-            Philosophy and Ethics : B
+            - Communication Studies : A*
+            <br />- Philosophy and Ethics : B
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -43,11 +41,10 @@ function Experience() {
             ComputaCenter - Scheduler
           </h2>
           <p>
-            Incident management.
+            - Incident management.
             <br />
-            Tracking and ordering hardware.
-            <br />
-            Liasing with customers internal and external.
+            - Tracking and ordering hardware.
+            <br />- Liasing with customers internal and external.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -60,19 +57,39 @@ function Experience() {
             The Jump Digital Coding Bootcamp
           </h2>
           <p>
-            HTML, CSS/Sass/SCSS
+            - HTML, CSS/Sass/SCSS
             <br />
-            JavaScript, TypeScript, React
+            - JavaScript, TypeScript, React
             <br />
-            Redux-Toolkit, Redux
+            - Redux-Toolkit, Redux
             <br />
-            Animation, GraphQL
+            - Animation, GraphQL
             <br />
-            BootStrap and Materialize
+            - BootStrap and Materialize
             <br />
-            AJAX and API calls
+            - AJAX and API calls
+            <br />- Jest, Cypress
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Dec 2020- June 2022"
+          iconStyle={{ background: "#FF7700", color: "#fff" }}
+          icon={<WorkHistoryIcon />}
+        >
+          <h2 className="vertical-timeline-element-title">
+            Forever Collectibles FOCO - Ecommerce Adminstrator
+          </h2>
+          <p>
+            - Analysis of sales data, forecast sales projections and stock turn.
             <br />
-            Jest, Cypress
+            - Create and recommend product promotions & Marketing ideas to
+            increase sales, liaising with product and design team across
+            multiple channels.
+            <br />
+            - Assist in the drive of Amazon & company targets and sales.
+            <br />- Ad hoc duties as required and maintenance of Amazon
+            accounts.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

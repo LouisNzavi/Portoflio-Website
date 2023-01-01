@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "../styles/Resume.css";
-import pdf from "../assets/louisnzaviresume.pdf";
+import pdf from "../assets/louisnzaviresume.docx.pdf";
 
 function Resume() {
   const [numPage, setnumPage] = useState(null);
@@ -9,7 +9,7 @@ function Resume() {
 
   function onDocumentLoadSuccess({ numPage }) {
     setnumPage(numPage);
-    setPageNumber(1);
+    setPageNumber(2);
   }
   return (
     <div className="resume">
@@ -18,7 +18,7 @@ function Resume() {
         file={pdf}
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page height="800" pageNumber={pageNumber} />
+        <Page height="900" pageNumber={pageNumber} />
       </Document>
       <p>
         Page {pageNumber} of {numPage}
