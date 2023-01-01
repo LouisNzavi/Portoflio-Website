@@ -9,7 +9,7 @@ function Resume() {
 
   function onDocumentLoadSuccess({ numPage }) {
     setnumPage(numPage);
-    setPageNumber(2);
+    setPageNumber(1);
   }
   return (
     <div className="resume">
