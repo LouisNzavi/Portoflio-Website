@@ -43,7 +43,7 @@ export const ProjectList = [
     image: reservation,
     skill: "React, Redux Toolkit and TypeScript",
     description:
-      "For this project I decided to work with React and Redux toolkit whilst incorporating Typescript to build a basic reservation system that can be used in a restaurant when customers order. This system works by the cashier adding the customers name in the input box. Once they are ready to order, you add the list of items they would like and this will be displayed under their name. ",
+      "Work in progress. For this project I decided to work with React and Redux toolkit whilst incorporating Typescript to build a basic reservation system that can be used in a restaurant when customers order. This system works by the cashier adding the customers name in the input box. Once they are ready to order, you add the list of items they would like and this will be displayed under their name. ",
     github:
       "https://github.com/LouisNzavi/RestaurantReservation---reduxToolkit-Typescrpt",
     website: "https://restuarant-reservation.netlify.app/",
