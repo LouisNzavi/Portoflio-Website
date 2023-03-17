@@ -80,9 +80,6 @@ function Home() {
               <br />
               GraphQL, ES6+, AJAX, APIs - REST.
               <br />
-              Animation (Greensock & Three.js), Graphing (d3.js) & Realtime
-              (websockets and socket.io)
-              <br />
               TypeScript, Cypress, Jest.
             </span>
           </li>
